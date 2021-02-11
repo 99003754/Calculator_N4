@@ -48,3 +48,16 @@ B - Binary Input, D - Decimal Input
 | T8      	| tan 90   	| 0               	|               	|        	|
 | T9      	| sine 48  	| 0.74314483      	|               	|        	|
 | T10     	| cos 72   	| 0.30901699      	|               	|        	|
+
+# Arithmetic Operations
+
+| Test Id | Input                | Expected Output | Actual Output |   Status   |
+|---------|----------------------|-----------------|---------------|------------|
+| T1      | Addition 2,3         | 5               |               |            |
+| T2      | Subtraction 5,1      | 4               |               |            |
+| T3      | Multiplication 2,5   | 10              |               |            |
+| T4      | Division 18,6        | 3               |               |            |
+| T5      | Addition -2,5        | 3               |               |            |
+| T6      | Subtraction -3,5     | -8              |               |            |
+| T7      | Multiplication +5,-5 | -25             |               |            |
+| T8      | Division -18,3       | -6              |               |            |
