@@ -28,7 +28,7 @@ This Calculator helps in calculating basic calculation, conversion of dimensions
  - Conversion for Range of word size
 ### Dimension Conversion
  - Length Conversions(centimeter/meter/km,inch/foot)
- - Mass Conversions(kg/pounds)
+ - Mass Conversions(g/kg/pounds)
  - Temperature Conversions(Degree/Fahrenheit)
  - Floating Values
  
