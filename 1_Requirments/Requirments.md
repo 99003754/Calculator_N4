@@ -19,7 +19,7 @@ This Calculator helps in calculating basic calculation, conversion of dimensions
  ### Trigonometric Conversions 
  - Sine, Cosine, Tan, Cot, Sec, Co-sec
  - I/O type Floating Values
- - Angle values in Degrees
+ - values in Degrees
  
 ### Binary Conversion
  - Binary to decimal and Octal
