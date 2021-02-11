@@ -10,11 +10,12 @@ This Calculator helps in calculating basic calculation, conversion of dimensions
  - Binary Conversion
 
 ## Low Level Requirements
-
+ ### Arithmetic Conversions
  - Addition
  - Subtraction
  - Multiplication
  - Division
+ - modulus 
  ### Trigonometric Conversions 
  - Sine, Cosine, Tan, Cot, Sec, Co-sec
  - I/O type Floating Values
