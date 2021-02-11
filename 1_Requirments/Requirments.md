@@ -24,7 +24,7 @@ This Calculator helps in calculating basic calculation, conversion of dimensions
  - Binary to decimal and Octal
  - Decimal to Octal and Binary
  - Positive integer values allowed
- - Conversion for Range of word
+ - Conversion for Range of word size
 ### Dimension Conversion
  - Length Conversions(centimeter/meter/km,inch/foot)
  - Mass Conversions(kg/pounds)
