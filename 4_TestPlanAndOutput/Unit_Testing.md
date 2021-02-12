@@ -43,3 +43,19 @@ Unit Testing Test Cases
 >>>>>>> 174bd7e8a94431f67e8046f5a922aba6ab6a7d88
     
 B - Binary Input, D - Decimal Input
+
+
+# Dimensions Conversion
+
+| Test ID |   Inputs                    | Expected Output | Actual Output |    Status    |
+|---------|-----------------------------|-----------------|---------------|--------------|
+| TI 1    | gram to kilogram 1000       | 1               |               |              |
+| TI 2    | inch to meter 5             | 0.127           |               |              |
+| TI 3    | Fahrenheit to Celsius 97.5  | 36.3888         |               |              |
+| TI 4    | kilogram to pounds 20       | 44.0924         |               |              |
+| TI 5    | centimeter to foot 32       | 1.0498          |               |              |
+| TI 6    | pounds to gram 25           | 11339.8         |               |              |
+| TI 7    | meter to kilometer -25      | Invalid         |               |              |
+| TI 8    | Celsius to Fahrenheit -25   | -13             |               |              |
+| TI 9    | gram to kilogram -5900      | Invalid         |               |              |
+
