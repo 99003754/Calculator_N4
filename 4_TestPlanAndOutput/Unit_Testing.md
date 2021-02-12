@@ -9,11 +9,11 @@ Unit Testing Test Cases
 | B1 |100    |    4,4          |               |        |
 | B2 |111    |    7,7          |               |        |
 | D1 |4      |    100,4        |               |        |
-| D2 |15     |    1111,17      |               |        |
+| D2 |15     |    1111,F       |               |        |
 | D3 |-10    |Invalid Input    |               |        |
 | D4 |2.8    |Invalid Input    |               |        |
 | D5 |-2.8   |Invalid Input    |               |        |
-| D7 |1024   |10000000000,2000 |               |        |
+| D7 |1024   |10000000000,400  |               |        |
 |    |       |                 |               |        |
     
 B - Binary Input, D - Decimal Input
