@@ -18,21 +18,23 @@ void basic()
   switch (operator)
   {
        
-      case 1 :
+   case 1 :
       printf("%f",number1+number2);
       break;
 
-      case 2 :
+   case 2 :
          printf("%f",number1-number2);
       break;
 
-       case 3 :
+   case 3 :
         printf("%f",number1*number2);
       break;
 
-       case 4 :
+   case 4 :
          printf("%f",number1/number2);
       break; 
+
+
   }
 
 //return 0;   
