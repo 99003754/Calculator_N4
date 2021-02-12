@@ -10,7 +10,7 @@ void basic()
     
  // User Input Done WIth Two Numbers
 
-    printf("Enter An operator  (+,-,*,/): ");
+    printf("Enter An operator  1(Addition)--2(Subtraction)--3(Multiplication)--4(Division): ");
     scanf("%d", &operator);
 
 
