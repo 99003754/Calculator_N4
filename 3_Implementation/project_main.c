@@ -1,6 +1,7 @@
 //include files here header
 #include<bin_conv.h>
 #include<trignometic.h>
+#include<basic.h>
 #define VALID   (1)
 #define INVALID (0)
 enum operations{ Basic_Calculations=1,Trignometry,Dimension_Conversion,Binary_Decimal_Conversion, EXIT };
@@ -31,7 +32,7 @@ void calculator_menu(void)
         case 1:
              
 
-            //basic();
+            basic();
             
 
             break;
