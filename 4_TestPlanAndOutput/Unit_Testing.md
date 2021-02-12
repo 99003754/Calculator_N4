@@ -14,6 +14,7 @@ Unit Testing Test Cases
 | D4 |2.8    |Invalid Input    |               |        |
 | D5 |-2.8   |Invalid Input    |               |        |
 | D7 |1024   |Error,400        |               |        |
-|    |       |                 |               |        |
+| B3 |-100   |Invalid Input    |               |        |
+| B3 | A     |Invalid Input    |               |        |
     
 B - Binary Input, D - Decimal Input
