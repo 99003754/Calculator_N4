@@ -33,3 +33,18 @@ B - Binary Input, D - Decimal Input
 | TI 8    | Celsius to Fahrenheit -25   | -13             |               |              |
 | TI 9    | gram to kilogram -5900      | Invalid         |               |              |
 
+
+# Trigonometric Conversions
+
+| Test ID 	| input    	| expected output 	| actual output 	| status 	|
+|---------	|----------	|-----------------	|---------------	|--------	|
+| T1      	| sine 0   	| 0.0             	|               	|        	|
+| T2      	| sine 30  	| 0.5             	|               	|        	|
+| T3      	| sine 180 	| 0               	|               	|        	|
+| T4      	| sine 210 	| -0.5            	|               	|        	|
+| T5      	| cos 0    	| 1               	|               	|        	|
+| T6      	| cos 180  	| -1              	|               	|        	|
+| T7      	| tan 45   	| 1               	|               	|        	|
+| T8      	| tan 90   	| 0               	|               	|        	|
+| T9      	| sine 48  	| 0.74314483      	|               	|        	|
+| T10     	| cos 72   	| 0.30901699      	|               	|        	|
