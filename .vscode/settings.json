@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "bin_conv.h": "c"
+        "bin_conv.h": "c",
+        "stdio.h": "c"
     }
 }

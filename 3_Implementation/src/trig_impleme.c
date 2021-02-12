@@ -43,37 +43,38 @@ void trig_choose()
     }
 }
 
-return sine(double angle_value_rad)
+double sine(double angle_value_rad)
 {
     return sin(angle_value_rad);
    // printf("\n%lf\n",sin(angle_value_rad));
 }
 
-return cosine(double angle_value_rad)
+double  cosine(double angle_value_rad)
 {
     return cos(angle_value_rad);
     //printf("\n%lf\n",cos(angle_value_rad));
 }
-return tangent(double angle_value_rad)
+double  tangent(double angle_value_rad)
 {
-    return tan(angle_value_rad)
+    return tan(angle_value_rad);
    // printf("\n%lf\n",tan(angle_value_rad));
 }
 
-return cot(double angle_value_rad)
+double cot(double angle_value_rad)
 {
-    return (1.0/tan(angle_value_rad);
+    return (1.0/tan(angle_value_rad));
     //printf("\n%lf\n",(1.0/tan(angle_value_rad)));
 }
 
-return sec(double angle_value_rad)
+double sec(double angle_value_rad)
 {
     double x=cos(angle_value_rad);
+    return (1/x);
     //printf("\n%lf\n",(1.0/x));
 }
 
-return cosec(double angle_value_rad)
+double cosec(double angle_value_rad)
 {
-    return (1.0/sin(angle_value_rad);
+    return (1.0/sin(angle_value_rad));
     //printf("\n%lf\n",(1.0/sin(angle_value_rad)));
 }
