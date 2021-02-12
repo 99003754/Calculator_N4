@@ -31,18 +31,18 @@ void calculator_menu(void)
         case 1:
              
 
-            basic();
+            //basic();
             
 
             break;
         case 2:
 
-            trig();
+            trig_choose();
             
 
             break;
         case 3:
-        dim_conv();
+        //dim_conv();
 
             break;
         case 4:
