@@ -7,7 +7,8 @@ BUILD = build
 # All source code files
 SRC = project_main.c\
 src/bin_conv.c\
-src/trig_impleme.c
+src/trig_impleme.c\
+src/basic.c
 
 
 # All test source files
