@@ -22,8 +22,8 @@ This Calculator helps in calculating basic calculation, conversion of dimensions
  - values in Degrees
  
 ### Binary Conversion
- - Binary to decimal and Octal
- - Decimal to Octal and Binary
+ - Binary to decimal and Hex
+ - Decimal to Hex and Binary
  - Positive integer values allowed
  - Conversion for Range of word size
 ### Dimension Conversion

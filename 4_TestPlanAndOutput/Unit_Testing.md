@@ -8,11 +8,12 @@ Unit Testing Test Cases
 |----|-------|-----------------|---------------|--------|
 | B1 |100    |    4,4          |               |        |
 | B2 |111    |    7,7          |               |        |
-| B3 |4      |    100,4        |               |        |
-| B4 |15     |    1111,17      |               |        |
-| B5 |-10    |Invalid Input    |               |        |
-| B6 |2.8    |Invalid Input    |               |        |
-| B7 |-2.8   |Invalid Input    |               |        |
-| B8 |1024   |10000000000,2000 |               |        |
-| B9 |       |                 |               |        |
+| D1 |4      |    100,4        |               |        |
+| D2 |15     |    1111,17      |               |        |
+| D3 |-10    |Invalid Input    |               |        |
+| D4 |2.8    |Invalid Input    |               |        |
+| D5 |-2.8   |Invalid Input    |               |        |
+| D7 |1024   |10000000000,2000 |               |        |
+|    |       |                 |               |        |
     
+B - Binary Input, D - Decimal Input
