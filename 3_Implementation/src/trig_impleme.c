@@ -5,8 +5,7 @@ void trig_choose()
      int choose_op;
     double angle_value_rad;
     double angle_value_degrees;
-    while(1)
-    {
+    
         printf("chooose trigonometric operation\n");
         printf("1.Sine\n2.cosine\n3.Tangent\n4.cotangent\n5.Sec\n6.Cosec\n7.back to main menu\n ");
 
@@ -34,47 +33,51 @@ void trig_choose()
         case 6:
             cosec(angle_value_rad);
             break;
-        case 7:
-             
         default:
            printf("Choose correct operation\n");
             break;
         }
-    }
+    
 }
 
 double sine(double angle_value_rad)
 {
+      printf("\n%lf\n",sin(angle_value_rad));
     return sin(angle_value_rad);
-   // printf("\n%lf\n",sin(angle_value_rad));
+  
 }
 
 double  cosine(double angle_value_rad)
 {
-    return cos(angle_value_rad);
-    //printf("\n%lf\n",cos(angle_value_rad));
+   
+    printf("\n%lf\n",cos(angle_value_rad));
+      return cos(angle_value_rad);
 }
 double  tangent(double angle_value_rad)
 {
-    return tan(angle_value_rad);
-   // printf("\n%lf\n",tan(angle_value_rad));
+    
+    printf("\n%lf\n",tan(angle_value_rad));
+     return tan(angle_value_rad);
 }
 
 double cot(double angle_value_rad)
 {
+     printf("\n%lf\n",(1.0/tan(angle_value_rad)));
     return (1.0/tan(angle_value_rad));
-    //printf("\n%lf\n",(1.0/tan(angle_value_rad)));
+    
 }
 
 double sec(double angle_value_rad)
 {
     double x=cos(angle_value_rad);
-    return (1/x);
-    //printf("\n%lf\n",(1.0/x));
+        printf("\n%lf\n",(1.0/x));
+     return (1/x);
+
 }
 
 double cosec(double angle_value_rad)
 {
-    return (1.0/sin(angle_value_rad));
-    //printf("\n%lf\n",(1.0/sin(angle_value_rad)));
+   printf("\n%lf\n",(1.0/sin(angle_value_rad)));
+     return (1.0/sin(angle_value_rad));
+    
 }
