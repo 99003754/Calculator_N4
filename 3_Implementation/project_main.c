@@ -43,7 +43,7 @@ void calculator_menu(void)
 
             break;
         case 3:
-        //dim_conv();
+            dim_con();
 
             break;
         case 4:
