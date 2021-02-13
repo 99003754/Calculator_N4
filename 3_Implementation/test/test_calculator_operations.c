@@ -58,10 +58,7 @@ void dectobin(void)
 {
   TEST_ASSERT_EQUAL('FF',dectohexa(255));
 }
-void dectobin(void)
-{
-  TEST_ASSERT_EQUAL(19,binarytohex(11001));
-}
+
 
 
 
