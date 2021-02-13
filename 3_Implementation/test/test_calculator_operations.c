@@ -11,7 +11,7 @@
 
 /* Prototypes for all the test functions */
 void trig_choose();
-void binaryyy();
+void test1();
 
 //void test_add_testcase2(void);
 //void test_subtract(void);
@@ -31,7 +31,7 @@ int main()
 
 /* Run Test functions */
   RUN_TEST(trig_choose);
-  RUN_TEST(binaryyy);
+  RUN_TEST(test1);
   
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
@@ -46,7 +46,7 @@ int main()
 void trig_choose(void) {
   TEST_ASSERT_EQUAL(0.5, sine(30));
 }
-void binaryyy(void)
+void test1(void)
 {
   TEST_ASSERT_EQUAL(11,binaryyy(3));
 }
