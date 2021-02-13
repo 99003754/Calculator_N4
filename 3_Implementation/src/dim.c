@@ -39,25 +39,31 @@ void dim_con()
                     //Kilometer
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp/100000;
+                        /*conv_op= conv_inp/100000;
                         printf("\nIn Kilometer=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=cm_to_km(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Inch
                     if(int_choice2==3)
                     {
-                        conv_op= conv_inp/2.54;
+                        /*conv_op= conv_inp/2.54;
                         printf("\nIn Inch=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=cm_to_inch(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Foot
                     if(int_choice2==4)
                     {
-                        conv_op= conv_inp/30.48;
+                        /*conv_op= conv_inp/30.48;
                         printf("\nIn Foot=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=cm_to_foot(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                                   
                 }
@@ -68,33 +74,41 @@ void dim_con()
                     //Centimeter
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp*100;
+                        /*conv_op= conv_inp*100;
                         printf("\nIn Centimeter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=m_to_cm(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Kilometer
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp/1000;
+                        /*conv_op= conv_inp/1000;
                         printf("\nIn Kilometer=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=m_to_km(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Inch
                     if(int_choice2==3)
                     {
-                        conv_op= conv_inp*39.37;
+                        /*conv_op= conv_inp*39.37;
                         printf("\nIn Inch=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=m_to_inch(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Foot
                     if(int_choice2==4)
                     {
-                        conv_op= conv_inp*3.281;
+                        /*conv_op= conv_inp*3.281;
                         printf("\nIn Foot=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=m_to_foot(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -105,33 +119,41 @@ void dim_con()
                     //Centimeter
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp*100000;
+                        /*conv_op= conv_inp*100000;
                         printf("\nIn Centimeter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=km_to_cm(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Meter
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp*1000;
+                        /*conv_op= conv_inp*1000;
                         printf("\nIn Meter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=km_to_m(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Inch
                     if(int_choice2==3)
                     {
-                        conv_op= conv_inp*39370;
+                        /*conv_op= conv_inp*39370;
                         printf("\nIn Inch=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=km_to_inch(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Foot
                     if(int_choice2==4)
                     {
-                        conv_op= conv_inp*3281;
+                        /*conv_op= conv_inp*3281;
                         printf("\nIn Foot=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=km_to_foot(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -142,33 +164,41 @@ void dim_con()
                     //Centimeter
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp*2.54;
+                        /*conv_op= conv_inp*2.54;
                         printf("\nIn Centimeter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=inch_to_cm(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Meter
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp/39.37;
+                        /*conv_op= conv_inp/39.37;
                         printf("\nIn Meter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=inch_to_m(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Kilometer
                     if(int_choice2==3)
                     {
-                        conv_op= conv_inp/39370;
+                        /*conv_op= conv_inp/39370;
                         printf("\nIn Kilometer=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=inch_to_km(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Foot
                     if(int_choice2==4)
                     {
-                        conv_op= conv_inp/12;
+                        /*conv_op= conv_inp/12;
                         printf("\nIn Foot=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=inch_to_foot(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -179,33 +209,41 @@ void dim_con()
                     //Centimeter
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp*30.48;
+                        /*conv_op= conv_inp*30.48;
                         printf("\nIn Centimeter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=foot_to_cm(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Meter
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp/3.281;
+                        /*conv_op= conv_inp/3.281;
                         printf("\nIn Meter=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=foot_to_m(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Kilometer
                     if(int_choice2==3)
                     {
-                        conv_op= conv_inp/3281;
+                        /*conv_op= conv_inp/3281;
                         printf("\nIn Kilometer=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=foot_to_km(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Inch
                     if(int_choice2==4)
                     {
-                        conv_op= conv_inp*12;
+                        /*conv_op= conv_inp*12;
                         printf("\nIn Inch=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=foot_to_inch(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -225,17 +263,21 @@ void dim_con()
                     //Kilogram
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp/1000;
+                        /*conv_op= conv_inp/1000;
                         printf("\nIn Kilogram=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=g_to_kg(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //pound
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp/454;
+                        /*conv_op= conv_inp/454;
                         printf("\nIn Pound=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=g_to_pd(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -246,17 +288,21 @@ void dim_con()
                     //gram
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp*1000;
+                        /*conv_op= conv_inp*1000;
                         printf("\nIn gram=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=kg_to_g(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Pound
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp*2.205;
+                        /*conv_op= conv_inp*2.205;
                         printf("\nIn Pound=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=kg_to_pd(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -267,17 +313,21 @@ void dim_con()
                     //gram
                     if(int_choice2==1)
                     {
-                        conv_op= conv_inp*454;
+                        /*conv_op= conv_inp*454;
                         printf("\nIn gram=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=pd_to_g(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                     //Kilogram
                     if(int_choice2==2)
                     {
-                        conv_op= conv_inp/2.205;
+                        /*conv_op= conv_inp/2.205;
                         printf("\nIn Kilogram=%f",conv_op);
-                        conv_op=0;
+                        conv_op=0;*/
+                        conv_op=pd_to_kg(conv_inp);
+                        printf("\nMeter:%f\n",conv_op);
                     }
                     
                 }
@@ -312,6 +362,157 @@ void dim_con()
 }
 
 float cm_to_m(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float cm_to_km(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float cm_to_inch(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float cm_to_foot(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+
+float m_to_cm(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float m_to_km(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float m_to_inch(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float m_to_foot(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float km_to_cm(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float km_to_m(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float km_to_inch(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float km_to_foot(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float inch_to_cm(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float inch_to_m(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float inch_to_km(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float inch_to_foot(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float foot_to_cm(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float foot_to_m(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float foot_to_km(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float foot_to_inch(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float g_to_kg(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float g_to_pd(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float kg_to_g(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float kg_to_pd(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float pd_to_g(float conv_inp)
+{
+    return (conv_inp/100);
+   
+}
+
+float pd_to_kg(float conv_inp)
 {
     return (conv_inp/100);
    
