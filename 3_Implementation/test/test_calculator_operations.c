@@ -1,8 +1,8 @@
 #include "unity.h"
-#include <basic.h>
+//#include <basic.h>
 #include<bin_conv.h>
-#include<dim.h>
-#include<trignometic.h>
+//#include<dim.h>
+//#include<trignometic.h>
 
 
 /* Modify these two lines according to the project */
@@ -48,7 +48,7 @@ int main()
 //}
 void test1(void)
 {
-  TEST_ASSERT_EQUAL(11,binaryyy(3));
+  TEST_ASSERT_EQUAL(3, binarytodec(11));
 }
 
 
