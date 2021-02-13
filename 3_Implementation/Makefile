@@ -14,6 +14,7 @@ src/dim.c
 
  #All test source files
 TEST_SRC = src/bin_conv.c\
+src/basic.c\
 test/test_calculator_operations.c\
 unity/unity.c
 
