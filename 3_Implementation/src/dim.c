@@ -14,8 +14,8 @@ void dim_con()
         case 1: 
                 
                 //centimeter/meter/km,inch/foot
-                printf("Enter input units\n1->Centimeter2->Meter3->Kilometer4->Inch5->Foot\n");
-                scanf("%d",&int_choice1);
+                //printf("Enter input units\n1->Centimeter2->Meter3->Kilometer4->Inch5->Foot\n");
+                //scanf("%d",&int_choice1);
                 printf("Enter Value: ");
                 scanf("%f",&conv_inp);
                 if(int_choice1==1)  //Centimeter
