@@ -32,7 +32,7 @@ void calculator_menu(void)
         case 1:
              
 
-            basic();
+            basics();
             
 
             break;
