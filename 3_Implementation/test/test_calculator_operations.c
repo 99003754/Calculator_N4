@@ -48,11 +48,8 @@ int main()
 //}
 void test1(void)
 {
-<<<<<<< HEAD
+
   TEST_ASSERT_EQUAL(3, binarytodec(11));
-=======
-  TEST_ASSERT_EQUAL(11,binarytodec(3));
->>>>>>> 5bcd24587c3cfdc5d96c137d1fae1ebbb53f6c25
 }
 
 
