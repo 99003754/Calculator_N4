@@ -1,5 +1,5 @@
 #include "unity.h"
-//#include <basic.h>
+#include <basic.h>
 #include<bin_conv.h>
 //#include<dim.h>
 //#include<trignometic.h>
@@ -12,6 +12,7 @@
 /* Prototypes for all the test functions */
 //void trig_choose();
 void test1();
+void test2();
 
 //void test_add_testcase2(void);
 //void test_subtract(void);
@@ -32,6 +33,7 @@ int main()
 /* Run Test functions */
   //RUN_TEST(trig_choose);
   RUN_TEST(test1);
+  RUN_TEST(test2);
   
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
@@ -52,6 +54,15 @@ void test1(void)
   TEST_ASSERT_EQUAL(3, binarytodec(11));
   TEST_ASSERT_EQUAL(123,binarytodec(1111011));
   TEST_ASSERT_EQUAL(18,binarytodec(10010));
+}
+void test2(void)
+{
+   TEST_ASSERT_EQUAL(12,add(10,2));
+     TEST_ASSERT_EQUAL(5,sub(10,5));
+      TEST_ASSERT_EQUAL(20,mul(10,2));
+       TEST_ASSERT_EQUAL(5,divd(10,2));
+        TEST_ASSERT_EQUAL(1,remb(10,3));
+         
 }
 
 
