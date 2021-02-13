@@ -10,7 +10,7 @@
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
-void trig_choose();
+//void trig_choose();
 void test1();
 
 //void test_add_testcase2(void);
@@ -30,7 +30,7 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(trig_choose);
+  //RUN_TEST(trig_choose);
   RUN_TEST(test1);
   
   /*RUN_TEST(test_add_testcase2);
@@ -43,9 +43,9 @@ int main()
 }
 
 /* Write all the test functions */ 
-void trig_choose(void) {
-  TEST_ASSERT_EQUAL(0.5, sine(30));
-}
+//void trig_choose(void) {
+  //TEST_ASSERT_EQUAL(0.5, sine(30));
+//}
 void test1(void)
 {
   TEST_ASSERT_EQUAL(11,binaryyy(3));
