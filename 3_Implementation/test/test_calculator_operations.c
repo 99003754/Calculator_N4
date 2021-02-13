@@ -4,12 +4,14 @@
 #include<dim.h>
 #include<trignometic.h>
 
+
 /* Modify these two lines according to the project */
 
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
 void trig_choose();
+
 //void test_add_testcase2(void);
 //void test_subtract(void);
 //void test_multiply(void);
@@ -28,6 +30,7 @@ int main()
 
 /* Run Test functions */
   RUN_TEST(trig_choose);
+  
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
@@ -40,8 +43,10 @@ int main()
 /* Write all the test functions */ 
 void trig_choose(void) {
   TEST_ASSERT_EQUAL(0.5, sine(30));
-  //TEST_ASSERT_EQUAL(-10, add(10, -20));
 }
+
+  //TEST_ASSERT_EQUAL(-10, add(10, -20));
+
 /*
 void test_add_testcase2(void) {
  

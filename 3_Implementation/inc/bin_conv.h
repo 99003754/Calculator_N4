@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-void dectobin();
-void dectohexa(int quotient);
-void decimaltobin(int binary);
-void binarytodec(long int bintodec_val);
-void binarytohex(long int bintohex_val);
+long dectobin();
+long dectohexa(long quotient);
+long decimaltobin(long binary);
+long binarytodec(long  bintodec_val);
+long binarytohex(long  bintohex_val);
 

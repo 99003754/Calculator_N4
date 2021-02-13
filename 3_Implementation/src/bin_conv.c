@@ -1,5 +1,5 @@
 #include "bin_conv.h"
-void dectobin()
+long dectobin()
 {
     int choice;
     int num;
@@ -25,7 +25,7 @@ void dectobin()
     }
     
 }
-void dectohexa(int quotient)
+long dectohexa(long quotient)
 {
     int i=1,j,temp;
     int rem_hex;
@@ -52,10 +52,11 @@ void dectohexa(int quotient)
         
         }
         printf("\n");
+        return hexnum;
     
 }
 
-void decimaltobin(int binary)
+long decimaltobin(long binary)
 {
     long binarynum = 0;
     int rem_bin, temp_bin = 1;
@@ -69,10 +70,11 @@ void decimaltobin(int binary)
         temp_bin = temp_bin * 10;
     }
     printf("\nBinary number is %ld",binarynum);
+    return binarynum;
     
 }
 
-void binarytodec(long int bintodec_val)
+long binarytodec(long bintodec_val)
 {
     int base=1,bin_rem,bin_decimal=0;
     while(bintodec_val>0)
@@ -85,8 +87,9 @@ void binarytodec(long int bintodec_val)
 
     }
     printf("Its decimal value is = %d \n", bin_decimal);
+    return bin_decimal;
 }
-void binarytohex(long int bintohex_val)
+long binarytohex(long bintohex_val)
 {
     long int remainder,hexadecimalval=0,i=1;
         while (bintohex_val != 0)
@@ -97,5 +100,6 @@ void binarytohex(long int bintohex_val)
         bintohex_val = bintohex_val/ 10;
     }
     printf("Equivalent hexadecimal value: %lX", hexadecimalval);
+    return hexadecimalval;
 
 }
