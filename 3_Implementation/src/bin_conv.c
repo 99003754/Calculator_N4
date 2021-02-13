@@ -1,4 +1,6 @@
 #include "bin_conv.h"
+
+// binary conversion
 long dectobin()
 {
     int choice;
