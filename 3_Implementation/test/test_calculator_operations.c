@@ -48,7 +48,7 @@ int main()
 //}
 void test1(void)
 {
-  TEST_ASSERT_EQUAL(11,binaryyy(3));
+  TEST_ASSERT_EQUAL(11,binarytodec(3));
 }
 
 
