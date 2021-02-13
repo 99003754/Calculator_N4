@@ -12,12 +12,12 @@ src/basic.c\
 src/dim.c
 
 
-# All test source files
-#TEST_SRC = src/calculator_operations.c\
-#test/test_calculator_operations.c\
-#unity/unity.c\
+ #All test source files
+TEST_SRC = src/trig_impleme.c\
+test/test_calculator_operations.c\
+unity/unity.c\
 
-#TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
 
 # All include folders with header files
 INC	= -Iinc\
@@ -52,9 +52,9 @@ run:$(PROJECT_NAME)
 #	make -C ./documentation
 
 # Build and run the unit tests
-#test:$(BUILD)
-#	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
-#	./$(TEST_OUTPUT)
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
 clean:
