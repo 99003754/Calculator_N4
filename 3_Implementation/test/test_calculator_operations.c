@@ -11,7 +11,7 @@
 
 /* Prototypes for all the test functions */
 void trig_choose();
-void dectobin();
+void binaryyy();
 
 //void test_add_testcase2(void);
 //void test_subtract(void);
@@ -31,7 +31,7 @@ int main()
 
 /* Run Test functions */
   RUN_TEST(trig_choose);
-  RUN_TEST(dectobin);
+  RUN_TEST(binaryyy);
   
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
@@ -46,17 +46,9 @@ int main()
 void trig_choose(void) {
   TEST_ASSERT_EQUAL(0.5, sine(30));
 }
-void dectobin(void)
+void binaryyy(void)
 {
-  TEST_ASSERT_EQUAL(11,decimaltobin(3));
-}
-void dectobin(void)
-{
-  TEST_ASSERT_EQUAL(3,binarytodec(11));
-}
-void dectobin(void)
-{
-  TEST_ASSERT_EQUAL('FF',dectohexa(255));
+  TEST_ASSERT_EQUAL(11,binaryyy(3));
 }
 
 
