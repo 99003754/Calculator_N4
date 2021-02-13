@@ -50,6 +50,8 @@ void test1(void)
 {
 
   TEST_ASSERT_EQUAL(3, binarytodec(11));
+  TEST_ASSERT_EQUAL(123,binarytodec(1111011));
+  TEST_ASSERT_EQUAL(18,binarytodec(10010));
 }
 
 
