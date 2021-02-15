@@ -69,10 +69,7 @@ void test1(void)
   TEST_ASSERT_EQUAL(1111, decimaltobin(15));
 }
 
-void test6(void)
-{
-  TEST_ASSERT_EQUAL('F',dectohexa(15));
-}
+
 
 
 
