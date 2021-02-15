@@ -19,7 +19,7 @@ void test2();
 void test3();
 void test4();
 
-void test6();
+
 
 //void test_add_testcase2(void);
 //void test_subtract(void);
@@ -44,7 +44,7 @@ int main()
   RUN_TEST(test3);
   RUN_TEST(test4);
 
-  RUN_TEST(test6);
+  
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
