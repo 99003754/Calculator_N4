@@ -16,6 +16,7 @@ src/dim.c
 TEST_SRC = src/bin_conv.c\
 src/basic.c\
 src/dim.c\
+src/trig_impleme.c\
 test/test_calculator_operations.c\
 unity/unity.c
 

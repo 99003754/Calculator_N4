@@ -4,10 +4,10 @@
 
 void trig_choose();
 
-double sine(double angle_value_degrees);
-double cosine(double angle_value_degrees);
-double tangent(double angle_value_degrees);
-double cot(double angle_value_degrees);
-double sec(double angle_value_degrees);
-double cosec(double angle_value_degrees);
+double sine(double);
+double cosine(double);
+double tangent(double );
+double cot(double );
+double sec(double );
+double cosec(double );
 
