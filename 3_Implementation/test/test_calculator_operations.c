@@ -18,7 +18,7 @@ void test1();
 void test2();
 void test3();
 void test4();
-void test5();
+
 void test6();
 
 //void test_add_testcase2(void);
@@ -43,7 +43,7 @@ int main()
   RUN_TEST(test2);
   RUN_TEST(test3);
   RUN_TEST(test4);
-  RUN_TEST(test5);
+
   RUN_TEST(test6);
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
@@ -68,10 +68,7 @@ void test1(void)
   TEST_ASSERT_EQUAL(100, decimaltobin(4));
   TEST_ASSERT_EQUAL(100, decimaltobin(15));
 }
-void test5(void)
-{
-  TEST_ASSERT_EQUAL(7, binarytohex(111));
-}
+
 void test6(void)
 {
   TEST_ASSERT_EQUAL('F',dectohexa(15));
