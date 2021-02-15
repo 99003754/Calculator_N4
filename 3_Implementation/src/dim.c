@@ -339,17 +339,17 @@ void dim_con()
                 scanf("%d",&int_choice);
                 if(int_choice==1)
                 {
-                    /*printf("Enter Value: ");
+                    printf("Enter Value: ");
                     scanf("%f",&conv_inp);
-                    conv_op = (conv_inp*9/5)+32 ;*/
+                    //conv_op = (conv_inp*9/5)+32 ;
                     conv_op=C_to_F(conv_inp);
                     printf("\nConverted Value: %f",conv_op );
                 }
                 else if(int_choice==2)
                 {
-                    /*printf("Enter Value: ");
+                    printf("Enter Value: ");
                     scanf("%f",&conv_inp);
-                    conv_op = (conv_inp-32)* 5/9;*/
+                    //conv_op = (conv_inp-32)* 5/9;
                     conv_op=F_to_C(conv_inp);
                     printf("\nConverted Value: %f",conv_op );
                 }
