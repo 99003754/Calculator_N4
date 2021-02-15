@@ -87,7 +87,7 @@ void test3()
 {
   TEST_ASSERT_EQUAL(0,sine(0));
   TEST_ASSERT_EQUAL(0.50,sine(30));
-  TEST_ASSERT_EQUAL(1.0,sine(90));
+  TEST_ASSERT_EQUAL(1,sine(90));
   TEST_ASSERT_EQUAL(1.0,cosine(0));
   TEST_ASSERT_EQUAL(0,cosine(90));
   TEST_ASSERT_EQUAL(0.50,cosine(60));
