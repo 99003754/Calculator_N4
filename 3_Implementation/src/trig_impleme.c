@@ -1,4 +1,5 @@
 #include<trignometic.h>
+#include<math.h>
 
 void trig_choose()
 {
