@@ -1,8 +1,9 @@
-#include "trignometic.h"
+#include<trignometic.h>
 
 void trig_choose()
 {
      int choose_op;
+
     double angle_value_rad;
     double angle_value_degrees;
     
