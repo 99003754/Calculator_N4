@@ -31,6 +31,8 @@ Implement using C langauge
 this is how
 
 # SWOT analysis
+![SWOT](https://user-images.githubusercontent.com/78870150/107905115-d2978680-6f73-11eb-8e90-d58f27d80df3.jpg)
+
 
 # Strength –
  Easy to use
