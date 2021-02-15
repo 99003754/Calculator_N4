@@ -1,4 +1,5 @@
 #include "bin_conv.h"
+#include<math.h>
 
 // binary conversion
 long dectobin()
