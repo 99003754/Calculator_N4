@@ -78,7 +78,7 @@ void test6(void)
 }
 
 
-}
+
 void test2(void)
 {
    TEST_ASSERT_EQUAL(12,add(10,2));
