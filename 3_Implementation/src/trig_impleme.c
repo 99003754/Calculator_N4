@@ -43,7 +43,7 @@ void trig_choose()
 double sine(double angle_value_rad)
 {
       printf("\n%lf\n",sin(angle_value_rad));
-    return sin(angle_value_rad);
+    return (sin(angle_value_rad));
   
 }
 
@@ -51,13 +51,13 @@ double  cosine(double angle_value_rad)
 {
    
     printf("\n%lf\n",cos(angle_value_rad));
-      return cos(angle_value_rad);
+      return (cos(angle_value_rad));
 }
 double  tangent(double angle_value_rad)
 {
     
     printf("\n%lf\n",tan(angle_value_rad));
-     return tan(angle_value_rad);
+     return (tan(angle_value_rad));
 }
 
 double cot(double angle_value_rad)
