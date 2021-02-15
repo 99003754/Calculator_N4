@@ -66,12 +66,12 @@ void test1(void)
   TEST_ASSERT_EQUAL(4,binarytodec(100));
   TEST_ASSERT_EQUAL(7,binarytodec(111));
   TEST_ASSERT_EQUAL(100, decimaltobin(4));
-  TEST_ASSERT_EQUAL(100, decimaltobin(15));
+  TEST_ASSERT_EQUAL(1111, decimaltobin(15));
 }
 
 void test6(void)
 {
-  TEST_ASSERT_EQUAL('F',dectohexa(15));
+  TEST_ASSERT_EQUAL(70,dectohexa(15));
 }
 
 
