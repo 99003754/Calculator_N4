@@ -68,7 +68,7 @@ void test2(void)
          
 }
 
-void test3()
+void test3(void)
 {
   TEST_ASSERT_EQUAL(0,sine(0));
   TEST_ASSERT_EQUAL(0.50,sine(30));
