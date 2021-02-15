@@ -105,6 +105,13 @@ void test3()
 void test4()
 {
   TEST_ASSERT_EQUAL(30, F_to_C(86));
+  TEST_ASSERT_EQUAL(86, C_to_F(30));
+  TEST_ASSERT_EQUAL(1, g_to_kg(1000));
+  TEST_ASSERT_EQUAL(1, cm_to_m(100));
+  TEST_ASSERT_EQUAL(30, F_to_C(86));
+  TEST_ASSERT_EQUAL(30, F_to_C(86));
+  TEST_ASSERT_EQUAL(30, F_to_C(86));
+  TEST_ASSERT_EQUAL(30, F_to_C(86));
 }
 
 
