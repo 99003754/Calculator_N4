@@ -17,7 +17,6 @@ TEST_SRC = src/bin_conv.c\
 src/basic.c\
 src/dim.c\
 test/test_calculator_operations.c\
-
 unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
