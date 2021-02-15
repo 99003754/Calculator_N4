@@ -71,7 +71,7 @@ void test1(void)
 
 void test6(void)
 {
-  TEST_ASSERT_EQUAL(70,dectohexa(15));
+  TEST_ASSERT_EQUAL('F',dectohexa(15));
 }
 
 
