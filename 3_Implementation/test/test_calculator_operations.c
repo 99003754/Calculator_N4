@@ -13,6 +13,7 @@
 //void trig_choose();
 void test1();
 void test2();
+void test3();
 
 //void test_add_testcase2(void);
 //void test_subtract(void);
@@ -63,6 +64,21 @@ void test2(void)
        TEST_ASSERT_EQUAL(5,divd(10,2));
         TEST_ASSERT_EQUAL(1,remb(10,3));
          
+}
+
+void test3()
+{
+  TEST_ASSERT_EQUAL(0,sine(0));
+  TEST_ASSERT_EQUAL(0.50,sine(30));
+  TEST_ASSERT_EQUAL(1.0,sine(90));
+  TEST_ASSERT_EQUAL(1.0,cosine(0));
+  TEST_ASSERT_EQUAL(0,cosine(90));
+  TEST_ASSERT_EQUAL(0.50,cosine(60));
+  TEST_ASSERT_EQUAL(1.0,tangent(45));
+  TEST_ASSERT_EQUAL(0,tangent(0));
+  TEST_ASSERT_EQUAL(-1.00,sine(270));
+  TEST_ASSERT_EQUAL(-1,cosine(180));
+
 }
 
 
