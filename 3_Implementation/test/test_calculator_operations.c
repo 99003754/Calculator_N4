@@ -36,6 +36,7 @@ int main()
   //RUN_TEST(trig_choose);
   RUN_TEST(test1);
   RUN_TEST(test2);
+  RUN_TEST(test3);
   
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
