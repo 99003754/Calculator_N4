@@ -3,6 +3,7 @@
 #include<trignometic.h>
 #include<basic.h>
 #include<dim.h>
+#include<math.h>
 #define VALID   (1)
 #define INVALID (0)
 enum operations{ Basic_Calculations=1,Trignometry,Dimension_Conversion,Binary_Decimal_Conversion, EXIT };
