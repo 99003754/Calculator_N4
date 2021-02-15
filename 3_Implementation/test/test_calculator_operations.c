@@ -36,7 +36,6 @@ int main()
   //RUN_TEST(trig_choose);
   RUN_TEST(test1);
   RUN_TEST(test2);
-  RUN_TEST(test3);
   
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
@@ -68,7 +67,7 @@ void test2(void)
          
 }
 
-void test3(void)
+void test3()
 {
   TEST_ASSERT_EQUAL(0,sine(0.0));
   TEST_ASSERT_EQUAL(0.50,sine(30.0));
@@ -80,7 +79,9 @@ void test3(void)
   /*TEST_ASSERT_EQUAL(0,tangent(0));
   TEST_ASSERT_EQUAL(-1.00,sine(270));
   TEST_ASSERT_EQUAL(-1,cosine(180));*/
+  //TRYING TO EDIT
 }
+
 
 
 
