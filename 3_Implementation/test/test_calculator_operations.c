@@ -93,7 +93,7 @@ void test3()
   TEST_ASSERT_EQUAL(1.0,tangent(45));
   TEST_ASSERT_EQUAL(0,tangent(0));
   
-  TEST_ASSERT_EQUAL(-1,cosine(180));
+  TEST_ASSERT_EQUAL(-1.0,cosine(180));
   //TRYING TO EDIT
 }
 
