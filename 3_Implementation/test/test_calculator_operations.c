@@ -16,7 +16,7 @@
 //void trig_choose();
 void test1();
 void test2();
-void test3();
+//void test3();
 void test4();
 
 //void test_add_testcase2(void);
@@ -39,7 +39,7 @@ int main()
   //RUN_TEST(trig_choose);
   RUN_TEST(test1);
   RUN_TEST(test2);
-  RUN_TEST(test3);
+  //RUN_TEST(test3);
   RUN_TEST(test4);
   /*RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
@@ -72,7 +72,7 @@ void test2(void)
          
 }
 
-void test3()
+/*void test3()
 {
   TEST_ASSERT_EQUAL(0,sine(0));
   TEST_ASSERT_EQUAL(0.50,sine(30));
@@ -83,10 +83,10 @@ void test3()
   TEST_ASSERT_EQUAL(1.0,tangent(45));
   /*TEST_ASSERT_EQUAL(0,tangent(0));
   TEST_ASSERT_EQUAL(-1.00,sine(270));
-  TEST_ASSERT_EQUAL(-1,cosine(180));*/
+  TEST_ASSERT_EQUAL(-1,cosine(180));
   //TRYING TO EDIT
 }
-
+*/
 void test4()
 {
   TEST_ASSERT_EQUAL(30, F_to_C(86));
