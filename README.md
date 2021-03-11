@@ -15,3 +15,6 @@
   2. Stackedit
   3. Draw.io
   4. MarkDown
+
+# Status Badege CPP Check
+[![Cppcheck](https://github.com/99003754/Calculator_N4/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003754/Calculator_N4/actions/workflows/cppcheck.yml)
