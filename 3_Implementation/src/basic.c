@@ -8,7 +8,7 @@ void basics()
 
     scanf("%d", &operator);
 
-
+//defining Functions of the program
   switch (operator)
   {
        case 1 :
@@ -84,3 +84,4 @@ int remb(int i,int j)
     //return i%j;
 
 }
+
